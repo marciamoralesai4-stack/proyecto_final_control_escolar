@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gry=a^j25lvhtaq*v0e4^fawuui1q98uk%xtk%e9lz9xlp1eww
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
@@ -128,6 +128,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
-    'https://proyecto-final-control-escolar.vercel.app/',
+    'https://proyecto-final-control-escolar.vercel.app',
 ]
 
