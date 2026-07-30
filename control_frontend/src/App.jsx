@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-const API = 'https://proyecto-final-control-escolar.onrender.com'
+const API = 'https://proyecto-final-control-escolar.onrender.com/api/'
 
 function App() {
   const [alumnos, setAlumnos] = useState([])
